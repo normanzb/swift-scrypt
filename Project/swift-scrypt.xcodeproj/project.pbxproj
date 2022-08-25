@@ -1,0 +1,397 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXCopyFilesBuildPhase section */
+		8E961C6728B6FFD0006076F1 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		3A912CFE715E05989B866D22 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		8E7B2CB062D88E2F1D2E4907 /* swift-scrypt.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = "swift-scrypt.podspec"; path = "../swift-scrypt.podspec"; sourceTree = "<group>"; };
+		8E961C4B28B6FC5E006076F1 /* libscrypt.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = libscrypt.h; sourceTree = "<group>"; };
+		8E961C4C28B6FC5E006076F1 /* module.modulemap */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.module-map"; path = module.modulemap; sourceTree = "<group>"; };
+		8E961C4E28B6FC5E006076F1 /* crypto_scrypt-hash.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "crypto_scrypt-hash.c"; sourceTree = "<group>"; };
+		8E961C4F28B6FC5E006076F1 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		8E961C5028B6FC5E006076F1 /* slowequals.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = slowequals.c; sourceTree = "<group>"; };
+		8E961C5128B6FC5E006076F1 /* Makefile */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
+		8E961C5228B6FC5E006076F1 /* libscrypt.version */ = {isa = PBXFileReference; lastKnownFileType = text; path = libscrypt.version; sourceTree = "<group>"; };
+		8E961C5328B6FC5E006076F1 /* b64.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = b64.h; sourceTree = "<group>"; };
+		8E961C5428B6FC5E006076F1 /* sha256.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = sha256.h; sourceTree = "<group>"; };
+		8E961C5528B6FC5E006076F1 /* crypto-scrypt-saltgen.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "crypto-scrypt-saltgen.c"; sourceTree = "<group>"; };
+		8E961C5628B6FC5E006076F1 /* crypto_scrypt-hexconvert.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "crypto_scrypt-hexconvert.c"; sourceTree = "<group>"; };
+		8E961C5728B6FC5E006076F1 /* crypto-mcf.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "crypto-mcf.c"; sourceTree = "<group>"; };
+		8E961C5828B6FC5E006076F1 /* sysendian.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = sysendian.h; sourceTree = "<group>"; };
+		8E961C5928B6FC5E006076F1 /* libscrypt.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = libscrypt.h; sourceTree = "<group>"; };
+		8E961C5A28B6FC5E006076F1 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		8E961C5B28B6FC5E006076F1 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		8E961C5C28B6FC5E006076F1 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		8E961C5D28B6FC5E006076F1 /* crypto_scrypt-check.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "crypto_scrypt-check.c"; sourceTree = "<group>"; };
+		8E961C5E28B6FC5E006076F1 /* slowequals.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = slowequals.h; sourceTree = "<group>"; };
+		8E961C5F28B6FC5E006076F1 /* b64.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = b64.c; sourceTree = "<group>"; };
+		8E961C6028B6FC5E006076F1 /* sha256.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = sha256.c; sourceTree = "<group>"; };
+		8E961C6128B6FC5E006076F1 /* crypto_scrypt-nosse.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "crypto_scrypt-nosse.c"; sourceTree = "<group>"; };
+		8E961C6228B6FC5E006076F1 /* crypto_scrypt-hexconvert.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "crypto_scrypt-hexconvert.h"; sourceTree = "<group>"; };
+		8E961C6428B6FC5E006076F1 /* Scrypt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Scrypt.swift; sourceTree = "<group>"; };
+		8E961C6928B6FFD0006076F1 /* libswift-scrypt.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libswift-scrypt.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		93410A4B8486EEF059213E44 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8E961C6628B6FFD0006076F1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		607FACC71AFB9204008FA782 = {
+			isa = PBXGroup;
+			children = (
+				8E961C4828B6FC5E006076F1 /* Sources */,
+				607FACF51AFB993E008FA782 /* Podspec Metadata */,
+				607FACD11AFB9204008FA782 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		607FACD11AFB9204008FA782 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8E961C6928B6FFD0006076F1 /* libswift-scrypt.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		607FACF51AFB993E008FA782 /* Podspec Metadata */ = {
+			isa = PBXGroup;
+			children = (
+				8E7B2CB062D88E2F1D2E4907 /* swift-scrypt.podspec */,
+				3A912CFE715E05989B866D22 /* README.md */,
+				93410A4B8486EEF059213E44 /* LICENSE */,
+			);
+			name = "Podspec Metadata";
+			sourceTree = "<group>";
+		};
+		8E961C4828B6FC5E006076F1 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				8E961C4928B6FC5E006076F1 /* libscrypt */,
+				8E961C6328B6FC5E006076F1 /* Scrypt */,
+			);
+			name = Sources;
+			path = ../Sources;
+			sourceTree = "<group>";
+		};
+		8E961C4928B6FC5E006076F1 /* libscrypt */ = {
+			isa = PBXGroup;
+			children = (
+				8E961C4A28B6FC5E006076F1 /* include */,
+				8E961C4D28B6FC5E006076F1 /* libscrypt */,
+			);
+			path = libscrypt;
+			sourceTree = "<group>";
+		};
+		8E961C4A28B6FC5E006076F1 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				8E961C4B28B6FC5E006076F1 /* libscrypt.h */,
+				8E961C4C28B6FC5E006076F1 /* module.modulemap */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		8E961C4D28B6FC5E006076F1 /* libscrypt */ = {
+			isa = PBXGroup;
+			children = (
+				8E961C4E28B6FC5E006076F1 /* crypto_scrypt-hash.c */,
+				8E961C4F28B6FC5E006076F1 /* LICENSE */,
+				8E961C5028B6FC5E006076F1 /* slowequals.c */,
+				8E961C5128B6FC5E006076F1 /* Makefile */,
+				8E961C5228B6FC5E006076F1 /* libscrypt.version */,
+				8E961C5328B6FC5E006076F1 /* b64.h */,
+				8E961C5428B6FC5E006076F1 /* sha256.h */,
+				8E961C5528B6FC5E006076F1 /* crypto-scrypt-saltgen.c */,
+				8E961C5628B6FC5E006076F1 /* crypto_scrypt-hexconvert.c */,
+				8E961C5728B6FC5E006076F1 /* crypto-mcf.c */,
+				8E961C5828B6FC5E006076F1 /* sysendian.h */,
+				8E961C5928B6FC5E006076F1 /* libscrypt.h */,
+				8E961C5A28B6FC5E006076F1 /* README.md */,
+				8E961C5B28B6FC5E006076F1 /* main.c */,
+				8E961C5C28B6FC5E006076F1 /* .gitignore */,
+				8E961C5D28B6FC5E006076F1 /* crypto_scrypt-check.c */,
+				8E961C5E28B6FC5E006076F1 /* slowequals.h */,
+				8E961C5F28B6FC5E006076F1 /* b64.c */,
+				8E961C6028B6FC5E006076F1 /* sha256.c */,
+				8E961C6128B6FC5E006076F1 /* crypto_scrypt-nosse.c */,
+				8E961C6228B6FC5E006076F1 /* crypto_scrypt-hexconvert.h */,
+			);
+			path = libscrypt;
+			sourceTree = "<group>";
+		};
+		8E961C6328B6FC5E006076F1 /* Scrypt */ = {
+			isa = PBXGroup;
+			children = (
+				8E961C6428B6FC5E006076F1 /* Scrypt.swift */,
+			);
+			path = Scrypt;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8E961C6828B6FFD0006076F1 /* swift-scrypt */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8E961C6D28B6FFD0006076F1 /* Build configuration list for PBXNativeTarget "swift-scrypt" */;
+			buildPhases = (
+				8E961C6528B6FFD0006076F1 /* Sources */,
+				8E961C6628B6FFD0006076F1 /* Frameworks */,
+				8E961C6728B6FFD0006076F1 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "swift-scrypt";
+			productName = "swift-scrypt";
+			productReference = 8E961C6928B6FFD0006076F1 /* libswift-scrypt.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		607FACC81AFB9204008FA782 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = CocoaPods;
+				TargetAttributes = {
+					8E961C6828B6FFD0006076F1 = {
+						CreatedOnToolsVersion = 13.4.1;
+						DevelopmentTeam = A76BRDF8W3;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 607FACCB1AFB9204008FA782 /* Build configuration list for PBXProject "swift-scrypt" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				English,
+				en,
+				Base,
+			);
+			mainGroup = 607FACC71AFB9204008FA782;
+			productRefGroup = 607FACD11AFB9204008FA782 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8E961C6828B6FFD0006076F1 /* swift-scrypt */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8E961C6528B6FFD0006076F1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		607FACED1AFB9204008FA782 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		607FACEE1AFB9204008FA782 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8E961C6E28B6FFD0006076F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_STYLE = Automatic;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = A76BRDF8W3;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8E961C6F28B6FFD0006076F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A76BRDF8W3;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_FAST_MATH = YES;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		607FACCB1AFB9204008FA782 /* Build configuration list for PBXProject "swift-scrypt" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				607FACED1AFB9204008FA782 /* Debug */,
+				607FACEE1AFB9204008FA782 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8E961C6D28B6FFD0006076F1 /* Build configuration list for PBXNativeTarget "swift-scrypt" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E961C6E28B6FFD0006076F1 /* Debug */,
+				8E961C6F28B6FFD0006076F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 607FACC81AFB9204008FA782 /* Project object */;
+}

@@ -1,0 +1,6 @@
+use_frameworks!
+target 'swift-scrypt_Tests' do
+  pod 'swift-scrypt', :path => '../'
+  
+  
+end
