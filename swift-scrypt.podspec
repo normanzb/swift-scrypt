@@ -21,7 +21,9 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '10.0'
 
-  s.source_files = 'Sources/**/*'
+  # s.static_framework = true
+  s.dependency 'libscrypt'
+  s.source_files = 'Sources/Scrypt/**/*.swift'
   
   # s.resource_bundles = {
   #   'swift-scrypt' => ['swift-scrypt/Assets/*.png']

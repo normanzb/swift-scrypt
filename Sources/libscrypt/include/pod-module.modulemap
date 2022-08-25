@@ -1,0 +1,4 @@
+framework module libscrypt [system] {
+    header "pod-libscrypt-umbrella.h"
+    export *
+}
